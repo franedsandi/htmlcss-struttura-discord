@@ -239,7 +239,7 @@ main .container{
   width: calc(200% / 3);
   background-color: #1E90FF;
   border: 1px dashed black;
-  margin: 10px 0;
+  margin: 20px 0;
     /* delete */
     height: 150px;
 }
@@ -247,7 +247,7 @@ main .container{
   width: calc(100% / 3);
   background-color: #FFC0CB;
   border: 1px dashed black;
-  margin: 10px 0;
+  margin: 20px 0;
     /* delete */
     height: 150px;
 }
@@ -264,11 +264,11 @@ main .container{
   display: flex;
   justify-content: center;
 }
-.invitation{
+.green{
   width: 100%;
   background-color: green;
   border: 1px dashed black;
-  margin: 10px 0;
+  margin: 20px 0;
       /* delete */
     height: 300px;
 }
@@ -285,40 +285,25 @@ main .container{
 .rette .container{
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
 
 }
 .social{
-  width: calc(150% / 5);
+  width: 30%;
   background-color: #F08080;
   border: 1px dashed black;
+  min-width: 200px;
     /* delete */
     height: 150px;
 }
-.prodotto{ 
-  width: calc(100% / 5);
+.prodotto ,
+.compagnia ,
+.risorse ,
+.nome { 
+  width: 17.5%;
   background-color: #20B2AA;
   border: 1px dashed white;
-    /* delete */
-    height: 150px;
-}
-.compagnia{ 
-  width: calc(100% / 5);
-  background-color: #20B2AA;
-  border: 1px dashed white;
-    /* delete */
-    height: 150px;
-}
-.risorse{ 
-  width: calc(100% / 5);
-  background-color: #20B2AA;
-  border: 1px dashed white;
-    /* delete */
-    height: 150px;
-}
-.nome{ 
-  width: calc(100% / 5);
-  background-color: #20B2AA;
-  border: 1px dashed white;
+  min-width: 150px;
     /* delete */
     height: 150px;
 }
@@ -341,7 +326,8 @@ main .container{
   height: 30px;
   align-items: center;
 }
-.minilogo , .button{
+.minilogo ,
+ .button{
 background-color: #FFB6C1;
 border: 1px dashed black;
 padding: 2px 3px;
