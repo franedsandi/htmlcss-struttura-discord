@@ -176,19 +176,20 @@ font-size: .5rem;
   border:1px solid black;
 }
 /*  header top */
-.top{
-background-color: aqua;
+header .top{
+background-color: #ADD8E6;
 }
-.top .row{
+header .top .row{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 80%;
-  margin: 5px auto;
+  margin:  auto;
+  padding: 5px 0px;
 }
 .col{
   border: 1px dashed black ;
-  background-color: yellow;
+  background-color: #DBA620;
 }
 .col.small{
   width: calc(100% / 5);
@@ -203,7 +204,7 @@ background-color: aqua;
 }
 /* header info */
 .description {
-  background-color: blue;
+  background-color: #00008B;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -213,6 +214,7 @@ background-color: aqua;
   text-align: center;
   margin: 20px;
   border: 1px dashed black ;
+<<<<<<< HEAD
   background-color: pink;
 <<<<<<< HEAD
 >>>>>>> c3cbf87 (design: header)
@@ -220,18 +222,14 @@ background-color: aqua;
 =======
   /* delete */
   height: 150px;
+=======
+  background-color: #EE82EE;
+    /* delete */
+    height: 150px;
+>>>>>>> d16200a (footer>done)
 }
-.white{
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
-.grey{
-  background-color: lightgrey;
-  display: flex;
-  justify-content: center;
-}
-.container{
+/* main */
+main .container{
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -239,16 +237,114 @@ background-color: aqua;
 }
 .picture{
   width: calc(200% / 3);
-  height: 150px;
-  background-color: blue;
+  background-color: #1E90FF;
   border: 1px dashed black;
   margin: 10px 0;
+    /* delete */
+    height: 150px;
 }
 .text{
   width: calc(100% / 3);
-  height: 150px;
-  background-color: pink;
+  background-color: #FFC0CB;
   border: 1px dashed black;
   margin: 10px 0;
+    /* delete */
+    height: 150px;
 }
+<<<<<<< HEAD
 >>>>>>> c77e987 (design: section white and grey)
+=======
+.white{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.grey{
+  background-color: #D3D3D3;
+  display: flex;
+  justify-content: center;
+}
+.invitation{
+  width: 100%;
+  background-color: green;
+  border: 1px dashed black;
+  margin: 10px 0;
+      /* delete */
+    height: 300px;
+}
+/* footer */
+.rette{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #23272A;
+  padding: 5px 0px 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.rette .container{
+  width: 80%;
+  display: flex;
+
+}
+.social{
+  width: calc(150% / 5);
+  background-color: #F08080;
+  border: 1px dashed black;
+    /* delete */
+    height: 150px;
+}
+.prodotto{ 
+  width: calc(100% / 5);
+  background-color: #20B2AA;
+  border: 1px dashed white;
+    /* delete */
+    height: 150px;
+}
+.compagnia{ 
+  width: calc(100% / 5);
+  background-color: #20B2AA;
+  border: 1px dashed white;
+    /* delete */
+    height: 150px;
+}
+.risorse{ 
+  width: calc(100% / 5);
+  background-color: #20B2AA;
+  border: 1px dashed white;
+    /* delete */
+    height: 150px;
+}
+.nome{ 
+  width: calc(100% / 5);
+  background-color: #20B2AA;
+  border: 1px dashed white;
+    /* delete */
+    height: 150px;
+}
+.bottomer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #23272A;
+  padding: 5px auto 0px;
+  border-bottom: 1px solid lightgrey;
+}
+.bottomer .container{
+  display: flex;
+  
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto 0px;
+  background-color:#7FFFD4;
+  height: 30px;
+  align-items: center;
+}
+.minilogo , .button{
+background-color: #FFB6C1;
+border: 1px dashed black;
+padding: 2px 3px;
+font-size: .5rem;
+}
+>>>>>>> d16200a (footer>done)
