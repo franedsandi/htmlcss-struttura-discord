@@ -208,11 +208,47 @@ background-color: aqua;
   flex-wrap: wrap;
   justify-content: center;
 }
-.text {
+.principal {
   width: 60%;
   text-align: center;
   margin: 20px;
   border: 1px dashed black ;
   background-color: pink;
+<<<<<<< HEAD
 >>>>>>> c3cbf87 (design: header)
 }
+=======
+  /* delete */
+  height: 150px;
+}
+.white{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.grey{
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.picture{
+  width: calc(200% / 3);
+  height: 150px;
+  background-color: blue;
+  border: 1px dashed black;
+  margin: 10px 0;
+}
+.text{
+  width: calc(100% / 3);
+  height: 150px;
+  background-color: pink;
+  border: 1px dashed black;
+  margin: 10px 0;
+}
+>>>>>>> c77e987 (design: section white and grey)
