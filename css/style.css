@@ -162,5 +162,57 @@ font-size: .5rem;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
 >>>>>>> a4e2f94 (Init)
+=======
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.debug {
+  background-color: rgb(224, 2, 2);
+  border:1px solid black;
+}
+/*  header top */
+.top{
+background-color: aqua;
+}
+.top .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5px auto;
+}
+.col{
+  border: 1px dashed black ;
+  background-color: yellow;
+}
+.col.small{
+  width: calc(100% / 5);
+  border: 1px dashed black ;
+}
+.col.big{
+  width: calc(300% / 5 );
+  text-align: center;
+}
+.login{
+  text-align: right;
+}
+/* header info */
+.description {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text {
+  width: 60%;
+  text-align: center;
+  margin: 20px;
+  border: 1px dashed black ;
+  background-color: pink;
+>>>>>>> c3cbf87 (design: header)
 }
