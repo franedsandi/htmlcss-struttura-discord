@@ -225,8 +225,12 @@ header .top .row{
 =======
   background-color: #EE82EE;
     /* delete */
+<<<<<<< HEAD
     height: 150px;
 >>>>>>> d16200a (footer>done)
+=======
+    height: 300px;
+>>>>>>> 5897236 (mod: rette)
 }
 /* main */
 main .container{
@@ -241,7 +245,7 @@ main .container{
   border: 1px dashed black;
   margin: 20px 0;
     /* delete */
-    height: 150px;
+    height: 325px;
 }
 .text{
   width: calc(100% / 3);
@@ -249,7 +253,7 @@ main .container{
   border: 1px dashed black;
   margin: 20px 0;
     /* delete */
-    height: 150px;
+    height: 325px;
 }
 <<<<<<< HEAD
 >>>>>>> c77e987 (design: section white and grey)
@@ -270,7 +274,7 @@ main .container{
   border: 1px dashed black;
   margin: 20px 0;
       /* delete */
-    height: 300px;
+    height: 500px;
 }
 /* footer */
 .rette{
@@ -289,23 +293,23 @@ main .container{
 
 }
 .social{
-  width: 30%;
+  width: 25%;
   background-color: #F08080;
   border: 1px dashed black;
-  min-width: 200px;
+  min-width: 150px;
     /* delete */
-    height: 150px;
+    height: 300px;
 }
 .prodotto ,
 .compagnia ,
 .risorse ,
 .nome { 
-  width: 17.5%;
+  width: 18.75%;
   background-color: #20B2AA;
   border: 1px dashed white;
-  min-width: 150px;
+  min-width: 125px;
     /* delete */
-    height: 150px;
+    height: 300px;
 }
 .bottomer{
   display: flex;
