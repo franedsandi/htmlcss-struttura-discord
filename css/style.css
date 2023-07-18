@@ -121,17 +121,16 @@ main .container{
     /* delete */
     height: 300px;
 }
-.prodotto ,
-.compagnia ,
-.risorse ,
-.nome { 
-  width: 18.75%;
+.others{
+  width: 75%;
   background-color: #20B2AA;
-  border: 1px dashed white;
-  min-width: 125px;
-    /* delete */
-    height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+      /* delete */
+      height: 300px;
 }
+
+
 .bottomer{
   display: flex;
   justify-content: space-between;
