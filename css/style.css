@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -46,191 +45,16 @@ header .top .row{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 350px;
 }
 .principal {
   width: 60%;
   text-align: center;
-  margin: 20px;
   border: 1px dashed black ;
-  background-color: #EE82EE;
-    /* delete */
-    height: 300px;
-}
-/* main */
-main .container{
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.picture{
-  width: calc(200% / 3);
-  background-color: #1E90FF;
-  border: 1px dashed black;
-  margin: 20px 0;
-    /* delete */
-    height: 325px;
-}
-.text{
-  width: calc(100% / 3);
-  background-color: #FFC0CB;
-  border: 1px dashed black;
-  margin: 20px 0;
-    /* delete */
-    height: 325px;
-}
-.white{
-  background-color: white;
-  display: flex;
-  justify-content: center;
-}
-.grey{
-  background-color: #D3D3D3;
-  display: flex;
-  justify-content: center;
-}
-.green{
-  width: 100%;
-  background-color: green;
-  border: 1px dashed black;
-  margin: 20px 0;
-      /* delete */
-    height: 500px;
-}
-/* footer */
-.rette{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #23272A;
-  padding: 5px 0px 20px;
-  border-bottom: 1px solid lightgrey;
-}
-.rette .container{
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.social{
-  width: 25%;
-  background-color: #F08080;
-  border: 1px dashed black;
-  min-width: 150px;
-    /* delete */
-    height: 300px;
-}
-.prodotto ,
-.compagnia ,
-.risorse ,
-.nome { 
-  width: 18.75%;
-  background-color: #20B2AA;
-  border: 1px dashed white;
-  min-width: 125px;
-    /* delete */
-    height: 300px;
-}
-.bottomer{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #23272A;
-  padding: 5px auto 0px;
-  border-bottom: 1px solid lightgrey;
-}
-.bottomer .container{
-  display: flex;
-  
-  justify-content: space-between;
-  width: 80%;
-  margin: 10px auto 0px;
-  background-color:#7FFFD4;
-  height: 30px;
-  align-items: center;
-}
-.minilogo ,
- .button{
-background-color: #FFB6C1;
-border: 1px dashed black;
-padding: 2px 3px;
-font-size: .5rem;
-=======
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-<<<<<<< HEAD
->>>>>>> a4e2f94 (Init)
-=======
-}
-.clearfix::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.debug {
-  background-color: rgb(224, 2, 2);
-  border:1px solid black;
-}
-/*  header top */
-header .top{
-background-color: #ADD8E6;
-}
-header .top .row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
-  margin:  auto;
-  padding: 5px 0px;
-}
-.col{
-  border: 1px dashed black ;
-  background-color: #DBA620;
-}
-.col.small{
-  width: calc(100% / 5);
-  border: 1px dashed black ;
-}
-.col.big{
-  width: calc(300% / 5 );
-  text-align: center;
-}
-.login{
-  text-align: right;
-}
-/* header info */
-.description {
-  background-color: #00008B;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.principal {
-  width: 60%;
-  text-align: center;
-  margin: 20px;
-  border: 1px dashed black ;
-<<<<<<< HEAD
   background-color: pink;
-<<<<<<< HEAD
->>>>>>> c3cbf87 (design: header)
-}
-=======
-  /* delete */
-  height: 150px;
-=======
-  background-color: #EE82EE;
     /* delete */
-<<<<<<< HEAD
-    height: 150px;
->>>>>>> d16200a (footer>done)
-=======
     height: 300px;
->>>>>>> 5897236 (mod: rette)
 }
 /* main */
 main .container{
@@ -255,15 +79,12 @@ main .container{
     /* delete */
     height: 325px;
 }
-<<<<<<< HEAD
->>>>>>> c77e987 (design: section white and grey)
-=======
-.white{
+.bg-white{
   background-color: white;
   display: flex;
   justify-content: center;
 }
-.grey{
+.bg-grey{
   background-color: #D3D3D3;
   display: flex;
   justify-content: center;
@@ -336,5 +157,4 @@ background-color: #FFB6C1;
 border: 1px dashed black;
 padding: 2px 3px;
 font-size: .5rem;
-}
->>>>>>> d16200a (footer>done)
+ }
